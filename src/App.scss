@@ -1,0 +1,21 @@
+@import './styles/Footer.scss';
+@import './styles/Navbar.scss';
+@import './styles/Home.scss';
+@import './styles/Header.scss';
+@import './styles/FeaturedMovie.scss';
+@import './styles/NewArrivals.scss';
+@import './styles/Exclusive.scss';
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'DM Sans',sans-serif;
+  color: #000;
+  text-decoration: none;
+}
+
+body {
+  width: 100%;
+  margin: 0 auto;
+}

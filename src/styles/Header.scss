@@ -1,0 +1,127 @@
+header {
+   max-width: 100%;
+   width: 100%;
+   height: 100%;
+   max-height: 600px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   color: #fff;
+   position: relative;
+   .poster__container {
+      max-width: 100%;
+      max-height: 600px;
+      height:100%;
+      width:100%;
+      .poster__img {
+         max-height: 600px;
+         max-width:100%;
+         width: 100%;
+         height: 100%;
+         object-fit: cover;
+      }
+  }
+   .header__info {
+      max-width:1440px;
+      width: 100%;
+      position: absolute;
+      color: #fff;
+      max-width: 1440px;
+      width: 98%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      max-height: 350px;
+      height: 100%;
+
+      background-color:rgba(0,0,0,.3);
+      padding: 5px;
+      border-radius:7px;
+      .header__title {
+         max-width: 400px;
+         width: 100%;
+         h1 {
+            font-size: 48px;
+            font-weight: 700;
+            line-height: 56px;
+            color: #fff;
+         }
+      }
+      .header__ratings {
+         max-width: 400px;
+         width: 100%;
+         display: flex;
+         flex-direction: row;
+         .Imdb {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            img {
+               max-width: 35px;
+               max-height: 17px;
+               width: 100%;
+               height: 100%;
+               margin-right: 10px;
+            }
+            p {
+               font-size: 12px;
+               font-weight: 400;
+               line-height: 12px;
+               color: #fff;
+            }
+            margin-right: 30px;
+         }
+         .RottenTomato {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            img {
+               max-width: 17px;
+               max-height: 17px;
+               width: 100%;
+               height: 100%;
+               margin-right: 10px;
+            }
+            p {
+               font-size: 12px;
+               font-weight: 400;
+               line-height: 12px;
+               color: #fff;
+            }
+         }
+      }
+      .header__descrpition {
+         max-width: 400px;
+         width: 100%;
+         p {
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 18px;
+            color: #fff;
+         }
+      }
+      .header__buttons {
+            display: flex;
+            flex-direction: row;
+            max-width: 15%;
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+            background: #BE123C;
+            padding-left: 10px;
+            padding-right: 10px;
+            border-radius:7px;
+            img {
+               margin-right: 20px;
+            }
+            p {
+               color: #fff;
+               font-size: 14px;
+               font-weight: 700;
+               line-height: 36px;
+               text-transform: uppercase;
+            }
+      }
+   }
+}
