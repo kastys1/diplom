@@ -34,7 +34,7 @@ function Footer() {
           </a>
       </div>
       <div className="footer__credits">
-          <small>© 2021 MovieBox by Adriana Eka Prayudha  </small>
+          <small>© 2022 MovieBox by Adriana Eka Prayudha  </small>
       </div>
     </footer>
   )
